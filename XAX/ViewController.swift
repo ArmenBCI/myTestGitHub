@@ -20,6 +20,9 @@ class ViewController: UIViewController {
     var firstOperation: Double = 0
     var secoundOperation: Double = 0
     var ketadrakanner: String = ""
+    
+    let myPublic: Bool = false
+    
     var carrentInput: Double {
         get {
             return Double(label.text!)!
